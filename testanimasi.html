@@ -1,0 +1,51 @@
+<!-- CSS 1 -->
+<style>
+
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Container</title>
+    <style>
+        .image-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <div class="box1">
+            <img class="image1" src="foto/kazuha.jpg" alt="Image 1" onmouseover="makeCircular(this)" onmouseout="makeSquare(this)">
+        </div>
+        <img class="image2" src="foto/kazuha.jpg" alt="Image 2">
+        <img class="image3" src="foto/kazuha.jpg" alt="Image 3">
+        <img class="image4" src="foto/kazuha.jpg" alt="Image 4">
+        <img class="image5" src="foto/kazuha.jpg" alt="Image 5">
+        <img class="image6" src="foto/kazuha.jpg" alt="Image 6">
+        <img class="image7" src="foto/kazuha.jpg" alt="Image 7">
+        <img class="image8" src="foto/kazuha.jpg" alt="Image 8">
+        <img class="image9" src="foto/kazuha.jpg" alt="Image 9">
+        <img class="image10" src="foto/kazuha.jpg" alt="Image 10">
+    </div>
+</body>
+</html>
+<!-- Animasi 1 -->
+<script>
+    function makeCircular(element) {
+        element.style.borderRadius = "50%";
+    }
+
+    function makeSquare(element) {
+        element.style.borderRadius = "0%";
+    }
+</script>
