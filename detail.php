@@ -305,7 +305,7 @@ include 'header.php';
             </div>
             <div class="col-md-6 my-auto">
                 <div class="s_product_text2 mt-5 animate">
-                    <div class="stars">★★★★★</div>
+                    <!-- <div class="stars">★★★★★</div> -->
                     <div class="text-center mb-2"></div>
                     <h3><?php echo htmlspecialchars($detail["namaproduk"]); ?></h3>
                     <h2 class="text-success"><?php echo rupiah($detail["hargaproduk"]); ?></h2>
@@ -331,7 +331,7 @@ include 'header.php';
                         <?php echo htmlspecialchars($detail["namaproduk"]); ?>
                     </div>
                     <button class="description-button" onclick="toggleDescription(this)">
-                        <span>LOCAL RETAILERS</span>
+                        <span>SHIPPING</span>
                         <span class="toggle-symbol">+</span>
                     </button>
                     <div class="description-line"></div>

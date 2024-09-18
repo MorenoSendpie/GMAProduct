@@ -222,7 +222,7 @@
     <footer>
         <div class="container-wrapper">
             <div class="footer-boxes">
-                <a href="product.php" class="footer-box transparent-box">
+                <a href="dealer.php" class="footer-box transparent-box">
                     <p>Discover Our Store</p>
                 </a>
                 <a href="product.php" class="footer-box filled-box">
